@@ -5,8 +5,8 @@ import os
 from datetime import datetime
 import uvicorn
 
-from .models import DownloadRequest, VideoResponse
-from .downloader import InstagramDownloader
+from models import DownloadRequest, VideoResponse
+from downloader import InstagramDownloader
 
 # Initialize FastAPI app
 app = FastAPI(
