@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: instagram-video-downloader
+    runtime: image
+    repo: https://github.com/Navidullah/instagram-video-downloader
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: 1

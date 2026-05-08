@@ -1,0 +1,8 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+yt-dlp==2024.12.23
+aiohttp==3.9.5
+beautifulsoup4==4.12.3
+lxml==5.1.0
+python-dotenv==1.0.1
+certifi==2024.2.2
